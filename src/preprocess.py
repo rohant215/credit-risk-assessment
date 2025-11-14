@@ -7,7 +7,6 @@ def load_data():
         sep=" ",
         header=None
     )
-    return df
 
     df.columns = [
         "Status",
@@ -52,5 +51,5 @@ def load_data():
     X_test = X[test_idx]
     y_test = y[test_idx]
 
-    return X_train, y_train, X_test, y_test
+    return X_train, y_train, X_test, y_test, df
 
