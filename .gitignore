@@ -1,0 +1,13 @@
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model artifacts (if you prefer not to commit large binary models)
+# src/models/
+# src/preprocessing/scaler.pkl
