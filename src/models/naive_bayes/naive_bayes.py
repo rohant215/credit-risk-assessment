@@ -9,13 +9,6 @@ class NaiveBayes:
         self.feature_types = []        # "gaussian" or "categorical"
 
     def fit(self, X, y, feature_types):
-        """
-        X: numpy array (n_samples, n_features)
-        y: numpy array (n_samples,)
-        feature_types: list of length n_features
-                       each entry is either "gaussian" or "categorical"
-        """
-
         self.feature_types = feature_types
         classes = np.unique(y)
         
